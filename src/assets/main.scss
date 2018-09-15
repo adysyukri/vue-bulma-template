@@ -1,8 +1,12 @@
 @import '~bulma/sass/utilities/initial-variables';
 
-$primary : $purple;
-$merah-mu-bara: rgba(223, 53, 2, 0.863);
-$info : $merah-mu-bara;
-$title-color : $yellow; 
+$primary: $turquoise;
+$link: $blue;
+$info: $cyan;
+$success: $green;
+$warning: $yellow;
+$danger: $red;
+$dark: $grey-darker;
+$text: $grey-dark;
 
 @import '~bulma/bulma';
