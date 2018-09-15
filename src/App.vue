@@ -25,7 +25,6 @@
                 <h2 class="title is-2">Merah mu Bara</h2>
                 <h1 class="subtitle">Merah mu Bara</h1>
             </div>
-        </div>          -->
     </div>
 </template> 
 
