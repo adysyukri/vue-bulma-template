@@ -1,28 +1,27 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
-</template>
+    <div class="container">
+        <div class="hero is-primary">
+            <div class="hero-body">
+                <h1 class="title is-1 is-primary">Primary</h1>
+                <h1 class="subtitle">Primary</h1>
+            </div>
+        </div>
+        <div class="hero is-info">
+            <div class="hero-body">
+                <h2 class="title is-2">Merah mu Bara</h2>
+                <h1 class="subtitle">Merah mu Bara</h1>
+            </div>
+        </div>
+         
+    </div>
+</template> 
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
-export default {
-  name: 'app',
-  components: {
-    HelloWorld
-  }
-}
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+.hero {
+    margin : 5px auto 5px auto;
 }
 </style>
